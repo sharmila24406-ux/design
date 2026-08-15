@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Portfolio | Sharmila R</title>
+<meta name="description" content="Design portfolio of Sharmila R — UI, graphic, editorial and publication design projects." />
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Inter:wght@400;500;600&family=Manrope:wght@500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/animations.css">
+<link rel="stylesheet" href="css/responsive.css">
+</head>
+<body>
+
+<div class="preloader">
+  <div class="preloader-logo">Sharmila<span style="color:var(--color-accent)">.</span></div>
+  <div class="preloader-bar"><span></span></div>
+</div>
+
+<div class="scroll-progress"></div>
+
+<header class="navbar">
+  <div class="container">
+    <a href="index.html" class="logo">Sharmila<span>.</span></a>
+    <nav class="nav-links">
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="design.html">Design</a>
+      <a href="portfolio.html">Portfolio</a>
+      <a href="services.html">Services</a>
+      <a href="resume.html">Resume</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+    <div class="nav-cta">
+      <a href="contact.html" class="btn btn-outline btn-sm">Hire Me</a>
+      <button class="hamburger" aria-label="Toggle menu"><span></span><span></span><span></span></button>
+    </div>
+  </div>
+</header>
+
+<div class="mobile-menu">
+  <a href="index.html">Home</a>
+  <a href="about.html">About</a>
+  <a href="design.html">Design</a>
+  <a href="portfolio.html" class="active">Portfolio</a>
+  <a href="services.html">Services</a>
+  <a href="resume.html">Resume</a>
+  <a href="contact.html">Contact</a>
+</div>
+
+<section class="page-hero animated-gradient-bg">
+  <div class="blob blob-2"></div>
+  <div class="container">
+    <div class="breadcrumb"><a href="index.html">Home</a><span class="sep">/</span><span>Portfolio</span></div>
+    <h1 class="page-hero-title">Selected <span class="text-gradient">Work</span></h1>
+    <p class="page-hero-sub">A curated showcase of graphic design, product ads, brand identity, and promotional creatives.</p>
+  </div>
+</section>
+
+<section style="padding-top:0;">
+  <div class="container">
+    <div class="filter-bar" data-reveal="fade">
+      <button class="filter-btn active" data-filter="all">All Work</button>
+      <button class="filter-btn" data-filter="product-ads">Product Ads</button>
+      <button class="filter-btn" data-filter="brand-design">Brand Design</button>
+      <button class="filter-btn" data-filter="social-media">Social Media</button>
+      <button class="filter-btn" data-filter="promotional">Promotional</button>
+    </div>
+
+    <div class="portfolio-grid">
+
+      <!-- 1 -->
+      <div class="portfolio-card" data-category="social-media" data-category-label="Social Media"
+           data-title="Social Media Creative" data-software="Photoshop"
+           data-desc="Engaging social media creative designed for maximum impact and brand consistency across platforms."
+           data-reveal="zoom">
+        <div class="portfolio-thumb">
+          <img src="assets/Design/1.jpg" alt="Social Media Creative"><div class="portfolio-overlay"><span data-view-project>View Details</span></div>
+        </div>
+        <div class="portfolio-body">
+          <span class="portfolio-category">Social Media</span>
+          <h3>Social Media Creative</h3>
+          <p>Creative assets designed for social engagement.</p>
+          <div class="portfolio-meta">
+            <div class="software-tags"><span>Photoshop</span></div>
+            <a href="#" data-view-project class="btn-ghost">View →</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- 2 -->
+      <div class="portfolio-card" data-category="product-ads" data-category-label="Product Ads"
+           data-title="Product Brand Design" data-software="Illustrator · Photoshop"
+           data-desc="Clean and modern product advertisement emphasizing brand identity and product features."
+           data-reveal="zoom" data-reveal-delay="1">
+        <div class="portfolio-thumb">
+          <img src="assets/Design/2.jpg" alt="Product Brand Design"><div class="portfolio-overlay"><span data-view-project>View Details</span></div>
+        </div>
+        <div class="portfolio-body">
+          <span class="portfolio-category">Product Ads</span>
+          <h3>Product Brand Design</h3>
+          <p>Product-focused branding and layout.</p>
+          <div class="portfolio-meta">
+            <div class="software-tags"><span>Illustrator</span><span>Photoshop</span></div>
+            <a href="#" data-view-project class="btn-ghost">View →</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- 3 -->
+      <div class="portfolio-card" data-category="promotional" data-category-label="Promotional"
+           data-title="Festival Celebration Design" data-software="Photoshop"
+           data-desc="Vibrant promotional material created for festive celebrations and seasonal campaigns."
+           data-reveal="zoom" data-reveal-delay="2">
+        <div class="portfolio-thumb">
+          <img src="assets/Design/3.jpg" alt="Festival Celebration Design"><div class="portfolio-overlay"><span data-view-project>View Details</span></div>
+        </div>
+        <div class="portfolio-body">
+          <span class="portfolio-category">Promotional</span>
+          <h3>Festival Celebration Design</h3>
+          <p>Vibrant promotional campaign creative.</p>
+          <div class="portfolio-meta">
+            <div class="software-tags"><span>Photoshop</span></div>
+            <a href="#" data-view-project class="btn-ghost">View →</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- 4 -->
+      <div class="portfolio-card" data-category="product-ads" data-category-label="Product Ads"
+           data-title="Product Advertisement" data-software="Illustrator"
+           data-desc="Eye-catching product advertisement designed to highlight key features and drive conversion."
+           data-reveal="zoom" data-reveal-delay="3">
+        <div class="portfolio-thumb">
+          <img src="assets/Design/4.jpg" alt="Product Advertisement"><div class="portfolio-overlay"><span data-view-project>View Details</span></div>
+        </div>
+        <div class="portfolio-body">
+          <span class="portfolio-category">Product Ads</span>
+          <h3>Product Advertisement</h3>
+          <p>Highlighting product features for campaigns.</p>
+          <div class="portfolio-meta">
+            <div class="software-tags"><span>Illustrator</span></div>
+            <a href="#" data-view-project class="btn-ghost">View →</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- 5 -->
+      <div class="portfolio-card" data-category="promotional" data-category-label="Promotional"
+           data-title="Promotional Banner" data-software="Photoshop"
+           data-desc="High-conversion promotional banner layout emphasizing clear messaging and strong calls-to-action."
+           data-reveal="zoom" data-reveal-delay="4">
+        <div class="portfolio-thumb">
+          <img src="assets/Design/5.jpg" alt="Promotional Banner"><div class="portfolio-overlay"><span data-view-project>View Details</span></div>
+        </div>
+        <div class="portfolio-body">
+          <span class="portfolio-category">Promotional</span>
+          <h3>Promotional Banner</h3>
+          <p>Clear messaging and strong visual hierarchy.</p>
+          <div class="portfolio-meta">
+            <div class="software-tags"><span>Photoshop</span></div>
+            <a href="#" data-view-project class="btn-ghost">View →</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- 6 -->
+      <div class="portfolio-card" data-category="brand-design" data-category-label="Brand Design"
+           data-title="Typography & Layout Design" data-software="InDesign · Illustrator"
+           data-desc="Elegant typography and structural layout demonstrating editorial and brand design capabilities."
+           data-reveal="zoom" data-reveal-delay="5">
+        <div class="portfolio-thumb">
+          <img src="assets/Design/6.jpg" alt="Typography & Layout Design"><div class="portfolio-overlay"><span data-view-project>View Details</span></div>
+        </div>
+        <div class="portfolio-body">
+          <span class="portfolio-category">Brand Design</span>
+          <h3>Typography & Layout Design</h3>
+          <p>Editorial and brand layout exploration.</p>
+          <div class="portfolio-meta">
+            <div class="software-tags"><span>InDesign</span><span>Illustrator</span></div>
+            <a href="#" data-view-project class="btn-ghost">View →</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- 7 -->
+      <div class="portfolio-card" data-category="product-ads" data-category-label="Product Ads"
+           data-title="Odonil Room Spray Ad" data-software="Photoshop"
+           data-desc="Commercial product advertisement layout created for consumer goods."
+           data-reveal="zoom" data-reveal-delay="6">
+        <div class="portfolio-thumb">
+          <img src="assets/Design/7.jpg" alt="Odonil Room Spray Ad"><div class="portfolio-overlay"><span data-view-project>View Details</span></div>
+        </div>
+        <div class="portfolio-body">
+          <span class="portfolio-category">Product Ads</span>
+          <h3>Odonil Room Spray Ad</h3>
+          <p>Consumer goods commercial advertisement.</p>
+          <div class="portfolio-meta">
+            <div class="software-tags"><span>Photoshop</span></div>
+            <a href="#" data-view-project class="btn-ghost">View →</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- 8 -->
+      <div class="portfolio-card" data-category="promotional" data-category-label="Promotional"
+           data-title="Black Friday Sale — Bags" data-software="Illustrator"
+           data-desc="High-contrast Black Friday promotional creative for retail bags, maximizing seasonal impact."
+           data-reveal="zoom">
+        <div class="portfolio-thumb">
+          <img src="assets/Design/8.jpg" alt="Black Friday Sale — Bags"><div class="portfolio-overlay"><span data-view-project>View Details</span></div>
+        </div>
+        <div class="portfolio-body">
+          <span class="portfolio-category">Promotional</span>
+          <h3>Black Friday Sale — Bags</h3>
+          <p>Seasonal retail campaign creatives.</p>
+          <div class="portfolio-meta">
+            <div class="software-tags"><span>Illustrator</span></div>
+            <a href="#" data-view-project class="btn-ghost">View →</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- 9 -->
+      <div class="portfolio-card" data-category="promotional" data-category-label="Promotional"
+           data-title="Black Friday Sale — Footwear" data-software="Photoshop"
+           data-desc="Energetic promotional layout for footwear retail targeting Black Friday sales."
+           data-reveal="zoom" data-reveal-delay="1">
+        <div class="portfolio-thumb">
+          <img src="assets/Design/9.jpg" alt="Black Friday Sale — Footwear"><div class="portfolio-overlay"><span data-view-project>View Details</span></div>
+        </div>
+        <div class="portfolio-body">
+          <span class="portfolio-category">Promotional</span>
+          <h3>Black Friday Sale — Footwear</h3>
+          <p>Footwear promotional campaign.</p>
+          <div class="portfolio-meta">
+            <div class="software-tags"><span>Photoshop</span></div>
+            <a href="#" data-view-project class="btn-ghost">View →</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- 10 -->
+      <div class="portfolio-card" data-category="product-ads" data-category-label="Product Ads"
+           data-title="Food Delivery Promotion" data-software="Illustrator"
+           data-desc="Appetizing and clear promotional graphic tailored for food delivery services."
+           data-reveal="zoom" data-reveal-delay="2">
+        <div class="portfolio-thumb">
+          <img src="assets/Design/10.jpg" alt="Food Delivery Promotion"><div class="portfolio-overlay"><span data-view-project>View Details</span></div>
+        </div>
+        <div class="portfolio-body">
+          <span class="portfolio-category">Product Ads</span>
+          <h3>Food Delivery Promotion</h3>
+          <p>Food service promotional graphic.</p>
+          <div class="portfolio-meta">
+            <div class="software-tags"><span>Illustrator</span></div>
+            <a href="#" data-view-project class="btn-ghost">View →</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- 11 -->
+      <div class="portfolio-card" data-category="product-ads" data-category-label="Product Ads"
+           data-title="Watch Brand Promotion" data-software="Photoshop"
+           data-desc="Premium product showcase emphasizing elegance and luxury for a watch brand."
+           data-reveal="zoom" data-reveal-delay="3">
+        <div class="portfolio-thumb">
+          <img src="assets/Design/11.jpg" alt="Watch Brand Promotion"><div class="portfolio-overlay"><span data-view-project>View Details</span></div>
+        </div>
+        <div class="portfolio-body">
+          <span class="portfolio-category">Product Ads</span>
+          <h3>Watch Brand Promotion</h3>
+          <p>Luxury product showcase and promotion.</p>
+          <div class="portfolio-meta">
+            <div class="software-tags"><span>Photoshop</span></div>
+            <a href="#" data-view-project class="btn-ghost">View →</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- 12 -->
+      <div class="portfolio-card" data-category="brand-design" data-category-label="Brand Design"
+           data-title="Ferrari Fragrance — Brand Ad" data-software="Illustrator · Photoshop"
+           data-desc="Sleek and sophisticated brand advertisement conceptualizing Ferrari Fragrance."
+           data-reveal="zoom" data-reveal-delay="4">
+        <div class="portfolio-thumb">
+          <img src="assets/Design/12.jpg" alt="Ferrari Fragrance — Brand Ad"><div class="portfolio-overlay"><span data-view-project>View Details</span></div>
+        </div>
+        <div class="portfolio-body">
+          <span class="portfolio-category">Brand Design</span>
+          <h3>Ferrari Fragrance — Brand Ad</h3>
+          <p>High-end brand advertisement concept.</p>
+          <div class="portfolio-meta">
+            <div class="software-tags"><span>Illustrator</span><span>Photoshop</span></div>
+            <a href="#" data-view-project class="btn-ghost">View →</a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- Unified Lightbox Modal -->
+<div class="unified-lightbox" aria-hidden="true" role="dialog">
+  <button class="lightbox-close" aria-label="Close" type="button"><svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg></button>
+  <button class="lightbox-prev" aria-label="Previous" type="button"><svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="15 18 9 12 15 6"></polyline></svg></button>
+  <button class="lightbox-next" aria-label="Next" type="button"><svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="9 18 15 12 9 6"></polyline></svg></button>
+  <div class="unified-lightbox-content">
+    <img src="" alt="" class="lightbox-img" data-lb-img>
+    <div class="lightbox-info">
+      <span class="portfolio-category" data-lb-category></span>
+      <h3 class="lightbox-title" data-lb-title></h3>
+      <p class="lightbox-desc" data-lb-desc></p>
+      <p class="lightbox-software" data-lb-software></p>
+    </div>
+  </div>
+</div>
+
+<footer class="footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <a href="index.html" class="logo">Sharmila<span>.</span></a>
+        <p>Graphic Designer &amp; UI Designer crafting meaningful, user-centered digital and editorial experiences.</p>
+        <div class="hero-socials footer-socials">
+          <a href="#" class="social-icon" aria-label="LinkedIn"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-4 0v7h-4V9h4v1.5A4.5 4.5 0 0 1 16 8z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg></a>
+          <a href="#" class="social-icon" aria-label="Behance"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M2 6h7M2 12h20M2 18h7"/><circle cx="18" cy="8" r="3"/></svg></a>
+          <a href="#" class="social-icon" aria-label="Dribbble"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M2 12h20M8 3c3 5 3 13 0 18M16 3c-3 5-3 13 0 18"/></svg></a>
+        </div>
+      </div>
+      <div class="footer-nav">
+        <h4>Quick Links</h4>
+        <ul class="footer-links">
+          <li><a href="about.html">About</a></li>
+          <li><a href="design.html">Design</a></li>
+          <li><a href="portfolio.html">Portfolio</a></li>
+          <li><a href="resume.html">Resume</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+      <div class="footer-services">
+        <h4>Services</h4>
+        <ul class="footer-links">
+          <li><a href="services.html">UI/UX Design</a></li>
+          <li><a href="services.html">Editorial Design</a></li>
+          <li><a href="services.html">Brand Identity</a></li>
+          <li><a href="services.html">Publication Formatting</a></li>
+        </ul>
+      </div>
+      <div class="footer-newsletter">
+        <h4>Stay Updated</h4>
+        <p style="color:var(--color-text-secondary);font-size:0.88rem;margin-bottom:6px;">Get occasional updates on new projects.</p>
+        <form class="newsletter-form">
+          <input type="email" placeholder="Your email" required>
+          <button type="submit">Join</button>
+        </form>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© 2026 Sharmila R. All rights reserved.</span>
+      <span>Designed &amp; built with care.</span>
+    </div>
+  </div>
+</footer>
+
+<button class="back-to-top" aria-label="Back to top"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 19V6M5 12l7-7 7 7"/></svg></button>
+
+<script src="js/animations.js"></script>
+<script src="js/script.js"></script>
+</body>
+</html>
